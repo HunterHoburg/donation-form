@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage" : "http://hunterhoburg.github.io/donation-form/",
+  "homepage": "http://hunterhoburg.github.io/donation-form/",
   "scripts": {
     "start": "webpack-dev-server --mode development --config webpack.config.js --hot",
     "build": "webpack --mode development",
@@ -28,7 +28,7 @@
     "react-hot-loader": "^4.12.21",
     "style-loader": "0.23.0",
     "webpack": "4.19.1",
-    "webpack-cli": "3.1.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
 }

@@ -1,19 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 
-.App {
-  max-width: 332px;
+.donation-form {
   margin: 120px;
+  max-width: 332px;
 }
 
-.text-container {
-  height: 200px;
-}
-
-.header-text {
+.donation-form__header-text {
   font-family: 'Poppins';
+  font-weight: 700;
 }
 
-.body-text {
+.donation-form__body-text {
   font-family: 'IBM Plex Sans', sans-serif;
+  margin: 32px 0;
+}
+
+/* All of these important uses could be circumvented by doing a proper theming */
+.donation-form__progress-bar {
+  width: 99.8%;
+  margin: 0 auto -5px auto;
+  background-color: #b6f2e4 !important;
+}
+.donation-form__progress-bar div {
+  background-color: #1bddb1 !important;
+}
+
+.donation-form__button {
+  /* All of these important uses could be circumvented by doing a proper theming */
+  background-color: #1bddb1 !important;
+  color: white !important;
+  border: none !important;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.donation-form__popover {
+  background-color: #e3ebfc !important;
+}
+.donation-form__popover div {
+  color: #5884ea !important;
 }
