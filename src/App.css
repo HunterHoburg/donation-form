@@ -35,3 +35,10 @@
   font-family: 'Poppins';
   font-weight: 500;
 }
+
+.donation-form__popover {
+  background-color: #e3ebfc !important;
+}
+.donation-form__popover div {
+  color: #5884ea !important;
+}

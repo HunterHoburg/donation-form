@@ -37,17 +37,19 @@ export default () => {
         {(props) => (
           <Popover 
             {...props}
+            className='donation-form__popover'
             target={tooltipTarget.current} 
             show={showTooltip} 
             placement='top' 
             arrowProps={{
               style: {
                 right: 0,
+                color: '#e3ebfc'
               }
             }}
           >
             <Popover.Content>
-              {`$${5000 - totalAmountDonated} still needed to fund this project`}
+              <b>${5000 - totalAmountDonated}</b> still needed to fund this project
             </Popover.Content>
           </Popover>
         )}
